@@ -1,9 +1,4 @@
-class ApplicationController < ActionController::Base
-  protect_from_forgery
-end
-
-
-class RemoteGem
+class RemoteGem < ApplicationController
   include HTTParty
  
   base_uri "rubygems.org/api/v1"

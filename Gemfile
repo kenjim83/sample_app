@@ -8,6 +8,7 @@ gem 'rails', '3.2.12'
 group :development, :test do
   gem 'rspec-rails', '2.11.0'
   gem 'sqlite3', '1.3.5'
+  gem 'httparty'
 
 end
 
